@@ -21,3 +21,22 @@ a {
   border-radius: 10px;
   height: 200px;
 }
+
+.category-btn {
+  border-radius: 30px;
+  display: flex;
+  align-items: center;
+  background-color: transparent;
+  color: #fff;
+  margin-bottom: 5px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.category-btn > span {
+  margin-right: 5px;
+}
+
+.category-btn:hover {
+  background-color: red;
+}
